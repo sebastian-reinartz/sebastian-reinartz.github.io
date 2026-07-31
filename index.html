@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sebastian Reinartz</title>
+
+  <meta name="description" content="Sebastian Reinartz – Economics PhD student at IWH with research interests in education and labor economics." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding-top: 70px; /* adjust this based on your nav height */
+      background: white;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #7F9DB1;
+      padding: 35px 40px;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000; /* ensures it stays on top */
+    }
+
+    nav a {
+      margin-right: 60px;
+      text-decoration: none;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    /* the wrapper is the flex container, not the image itself */
+    .profile-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 100px;
+    }
+
+    .profile img {
+      width: 300px;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .contact-icons {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 0;
+    }
+
+    .contact-icons img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .contact-icons a {
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+    }
+
+    .text-content {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    h1, h2 {
+      color: #b55212;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    a {
+      color: #b55212;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      /* Stack image and text vertically */
+      .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .profile-image {
+        margin: 0 0 20px 0;
+      }
+
+      .text-content {
+        width: 100%;
+      }
+
+      body {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 26px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 10px;
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="research.html">Research</a>
+  </nav>
+
+  <!-- About Me -->
+  <div class="container" id="about">
+    <div class="profile">
+
+      <!-- Profile image and contact icons -->
+      <div class="profile-image">
+        <img src="profile_picture.jpg" alt="Profile Picture" />
+
+        <!-- Icons centered below the image -->
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/[YOUR-LINKEDIN-HANDLE]" target="_blank" rel="noopener">
+            <img src="LinkedIn.png" alt="LinkedIn" />
+          </a>
+          <a href="mailto:sebastian.reinartz@iwh-halle.de">
+            <img src="Email.png" alt="Email" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Text content -->
+      <div class="text-content">
+        <h1>Sebastian Reinartz</h1>
+        <p>
+          Hello! My name is Sebastian Reinartz and I am a PhD student at the Halle Institute for Economic Research (IWH).<br><br>
+          My research interests are education and labor economics, with a focus on the skills of teachers and students and how they are rewarded in the labor market. In my current projects I study the cognitive skills of teachers and their relationship to student achievement, the wage returns to adaptability, and the formation of higher-order skills over the life course.<br><br>
+          Besides that, I am particularly interested in [ADD A SENTENCE — e.g. international comparisons of educational systems, large-scale assessment data, equality of opportunity].<br><br>
+          You can download my CV <a href="CV_website.pdf" target="_blank" rel="noopener">here</a>.<br><br>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
